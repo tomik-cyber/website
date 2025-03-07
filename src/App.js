@@ -7,6 +7,9 @@ import SignUp from './pages/SignUp';
 import Login from './pages/Login';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Jobs from './pages/Jobs';
+import Messages from './pages/Messages';
+
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/find-freelancers" element={<FindFreelancers />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/jobs" element={<Jobs />} />
+        <Route path="/messages" element={<Messages />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
       </Routes>
