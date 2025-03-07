@@ -11,6 +11,21 @@ const Home = () => {
                 <Link to="/signup" className="btn">Join as Freelancer</Link>
                 <Link to="/login" className="btn">Hire a Freelancer</Link>
             </div>
+
+            <div className="categories">
+                <div className="category-card">
+                    <h3>Web Development</h3>
+                    <p>Find top developers for your project.</p>
+                </div>
+                <div className="category-card">
+                    <h3>Graphic Design</h3>
+                    <p>Get creative designs from the best freelancers.</p>
+                </div>
+                <div className="category-card">
+                    <h3>Marketing</h3>
+                    <p>Boost your brand with expert marketers.</p>
+                </div>
+            </div>
         </div>
     );
 };
